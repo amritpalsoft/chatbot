@@ -1,0 +1,60 @@
+/* Ensure the main container takes the full width of the viewport */
+main {
+    width: 100vw; /* Full viewport width */
+    padding: 20px; /* Add padding to avoid content sticking to edges */
+    box-sizing: border-box; /* Include padding in the element's total width */
+    max-height: 100vh !important;
+    overflow-y: auto;
+}
+
+/* Basic styling for the table */
+table {
+    width: 100%; /* Ensure table takes the full width of the container */
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Center align text in th and td */
+th, td {
+    padding: 12px;
+    text-align: center; /* Center align text */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table header */
+th {
+    font-weight: bold; /* Optional: make headers bold */
+}
+
+/* Column widths */
+th.serial-no, td.serial-no {
+    width: 20%;
+}
+
+th.id, td.id {
+    width: 20%;
+}
+
+th.name, td.name {
+    width: 60%;
+}
+
+/* Highlight row on hover */
+tr:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* No data available styling */
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #888; /* Optional: color for no data text */
+    margin-top: 20px;
+}
+
+/* Loader styling */
+.loader {
+    text-align: center;
+    margin: 20px;
+}

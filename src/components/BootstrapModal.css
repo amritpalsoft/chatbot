@@ -1,0 +1,54 @@
+/* Ensure the modal content is centered and well-spaced */
+.modal-content {
+    padding: 20px;
+}
+
+/* Style the file input */
+.file-input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Center align selected files list */
+.selected-files {
+    margin-top: 10px;
+}
+
+.selected-files ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-files li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Style for the upload icon */
+/* .upload-icon {
+    fill: white;
+    width: 25px;
+    height: 25px;
+} */
+
+/* Style for the navPrompt button */
+.navPrompt {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.navPrompt:hover {
+    background-color: #0056b3;
+}
+
+.navPrompt p {
+    margin-left: 10px;
+    font-size: 16px;
+}
